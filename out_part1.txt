@@ -1,0 +1,74 @@
+Script started on Wed 21 Nov 2012 12:00:11 PM PST
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ vmc push
+Would you like to deploy from the current directory? [Yn]: Y
+Application Name: mongo-node
+Detected a Node.js Application, is this correct? [Yn]: Y
+Application Deployed URL [mongo-node.cloudfoundry.com]: cmpe297-assignment2-michaelyu.cloudfoundry.com
+Memory reservation (128M, 256M, 512M, 1G, 2G) [64M]: 
+How many instances? [1]: 
+Create services to bind to 'mongo-node'? [yN]: y
+1: mongodb
+2: mysql
+3: postgresql
+4: rabbitmq
+5: redis
+What kind of service?: 1
+Specify the name of the service [mongodb-2cabf]: 
+Create another? [yN]: N
+Would you like to save this configuration? [yN]: y
+Manifest written to manifest.yml.
+Creating Application: [0m[32mOK[0m
+Creating Service [mongodb-2cabf]: [0m[32mOK[0m
+Binding Service [mongodb-2cabf]: [0m[32mOK[0m
+Uploading Application:
+  Checking for available resources: [0m[32mOK[0m
+  Processing resources: [0m[32mOK[0m
+  Packing application: [0m[32mOK[0m
+  Uploading (9K):                          Uploading (9K):  85%                         Uploading (9K):  100%                         Uploading (9K): [0m[32mOK[0m
+Push Status: [0m[32mOK[0m
+Staging Application 'mongo-node': ...                                                                                Staging Application 'mongo-node': [0m[32mOK[0m
+Starting Application 'mongo-node': .                                                                                Starting Application 'mongo-node': [0m[32mOK[0m
+
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ vmc instances mongo-node
+
++-------+---------+--------------------+
+| Index | State   | Start Time         |
++-------+---------+--------------------+
+| 0     | RUNNING | 11/21/2012 12:01PM |
++-------+---------+--------------------+
+
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ vmc instances mongo-node 2
+Scaling Application instances up to 2: [0m[32mOK[0m
+
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ vmc instances mongo-node 2[K
+
++-------+---------+--------------------+
+| Index | State   | Start Time         |
++-------+---------+--------------------+
+| 0     | RUNNING | 11/21/2012 12:01PM |
+| 1     | RUNNING | 11/21/2012 12:02PM |
++-------+---------+--------------------+
+
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ vmc instances mongo-node 2[K1
+Scaling Application instances down to 1: [0m[32mOK[0m
+
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ vmc instances mongo-node 1[K
+
++-------+---------+--------------------+
+| Index | State   | Start Time         |
++-------+---------+--------------------+
+| 0     | RUNNING | 11/21/2012 12:01PM |
++-------+---------+--------------------+
+
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ vmc instances mongo-node 1[K[Kcurl -i cmpe297.[K-assignment2.m ic[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K-m ichaelyu.clkou[K[K[Koudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 21 Nov 2012 20:06:53 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World

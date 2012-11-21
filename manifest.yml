@@ -1,0 +1,16 @@
+--- 
+applications: 
+  .: 
+    services: 
+      mongodb-2cabf: 
+        type: mongodb
+    name: mongo-node
+    instances: 1
+    mem: 64M
+    url: cmpe297-assignment2-michaelyu.cloudfoundry.com
+    framework: 
+      info: 
+        description: Node.js Application
+        exec: 
+        mem: 64M
+      name: node

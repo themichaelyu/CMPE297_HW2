@@ -1,0 +1,125 @@
+Script started on Wed 21 Nov 2012 12:15:22 PM PST
+]0;michael@michael-VirtualBox: ~/Downloadsmichael@michael-VirtualBox:~/Downloads$ cd mongo-node/
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ l[Kvmc pu[K[Kupdate
+Updating application 'mongo-node'...
+Uploading Application:
+  Checking for available resources: [0m[32mOK[0m
+  Processing resources: [0m[32mOK[0m
+  Packing application: [0m[32mOK[0m
+  Uploading (9K):                          Uploading (9K):  88%                         Uploading (9K):  100%                         Uploading (9K): [0m[32mOK[0m
+Push Status: [0m[32mOK[0m
+Stopping Application 'mongo-node': [0m[32mOK[0m
+Staging Application 'mongo-node': .                                                                                Staging Application 'mongo-node': [0m[32mOK[0m
+Starting Application 'mongo-node': ..                                                                                Starting Application 'mongo-node': [0m[32mOK[0m
+
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i c[Kcmpe297-assignment2.[K-m ichaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 21 Nov 2012 20:16:17 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+10-21-2012 = 2
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 21 Nov 2012 20:16:23 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+10-21-2012 = 3
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 21 Nov 2012 20:16:25 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+10-21-2012 = 4
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 21 Nov 2012 20:16:26 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+10-21-2012 = 5
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 21 Nov 2012 20:16:28 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+10-21-2012 = 6
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 21 Nov 2012 20:16:30 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+10-21-2012 = 7
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 21 Nov 2012 20:16:31 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+10-21-2012 = 8
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 21 Nov 2012 20:16:32 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+10-21-2012 = 9
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 21 Nov 2012 20:16:34 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+10-21-2012 = 10
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ exit
+
+Script done on Wed 21 Nov 2012 12:17:05 PM PST
