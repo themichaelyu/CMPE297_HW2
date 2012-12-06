@@ -23,7 +23,7 @@ Keep-Alive: timeout=20
 Vary: Accept-Encoding
 
 Hello World
-10-21-2012 = 2
+11-21-12 = 2
 ]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
 HTTP/1.1 200 OK
 Server: nginx
@@ -35,7 +35,7 @@ Keep-Alive: timeout=20
 Vary: Accept-Encoding
 
 Hello World
-10-21-2012 = 3
+11-21-12 = 3
 ]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
 HTTP/1.1 200 OK
 Server: nginx
@@ -47,7 +47,7 @@ Keep-Alive: timeout=20
 Vary: Accept-Encoding
 
 Hello World
-10-21-2012 = 4
+11-21-12 = 4
 ]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
 HTTP/1.1 200 OK
 Server: nginx
@@ -59,7 +59,7 @@ Keep-Alive: timeout=20
 Vary: Accept-Encoding
 
 Hello World
-10-21-2012 = 5
+11-21-12 = 5
 ]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
 HTTP/1.1 200 OK
 Server: nginx
@@ -71,7 +71,7 @@ Keep-Alive: timeout=20
 Vary: Accept-Encoding
 
 Hello World
-10-21-2012 = 6
+11-21-12 = 6
 ]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
 HTTP/1.1 200 OK
 Server: nginx
@@ -83,7 +83,7 @@ Keep-Alive: timeout=20
 Vary: Accept-Encoding
 
 Hello World
-10-21-2012 = 7
+11-21-12 = 7
 ]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
 HTTP/1.1 200 OK
 Server: nginx
@@ -95,7 +95,7 @@ Keep-Alive: timeout=20
 Vary: Accept-Encoding
 
 Hello World
-10-21-2012 = 8
+11-21-12 = 8
 ]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
 HTTP/1.1 200 OK
 Server: nginx
@@ -107,7 +107,7 @@ Keep-Alive: timeout=20
 Vary: Accept-Encoding
 
 Hello World
-10-21-2012 = 9
+11-21-12 = 9
 ]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ curl -i cmpe297-assignment2-miichaelyu.cloudfoundry.com
 HTTP/1.1 200 OK
 Server: nginx
@@ -119,7 +119,7 @@ Keep-Alive: timeout=20
 Vary: Accept-Encoding
 
 Hello World
-10-21-2012 = 10
+11-21-12 = 10
 ]0;michael@michael-VirtualBox: ~/Downloads/mongo-nodemichael@michael-VirtualBox:~/Downloads/mongo-node$ exit
 
 Script done on Wed 21 Nov 2012 12:17:05 PM PST

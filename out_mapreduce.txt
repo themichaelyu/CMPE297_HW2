@@ -1,0 +1,98 @@
+Script started on Wed 05 Dec 2012 05:10:55 PM PST
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ vmc update
+Updating application 'mongo-node-mapreduce'...
+Uploading Application:
+  Checking for available resources: [0m[32mOK[0m
+  Processing resources: [0m[32mOK[0m
+  Packing application: [0m[32mOK[0m
+  Uploading (8K):                          Uploading (8K):  100%                         Uploading (8K): [0m[32mOK[0m
+Push Status: [0m[32mOK[0m
+Stopping Application 'mongo-node-mapreduce': [0m[32mOK[0m
+Staging Application 'mongo-node-mapreduce': .                                                                                Staging Application 'mongo-node-mapreduce': [0m[32mOK[0m
+Starting Application 'mongo-node-mapreduce': .                                                                                Starting Application 'mongo-node-mapreduce': [0m[32mOK[0m
+
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ curvmc updatecurl -i cmpe297-assiignment2-michaelyu.cloudfoundry.com[A]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ [9Pvmc update
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccur[Kvmc updatecurl -i cmpe297-assiignment2-michaelyu.cloudfoundry.com[A]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ [9Pvmc update
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccur[Kvmc updatecurl -i cmpe297-assiignment2-michaelyu.cloudfoundry.com[A]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ [9Pvmc update
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd mongo-node/[4Pvmc updatescript ~/Downloads/oout_part1.txt[A]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ [9Pvmc update
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd mongo-node/[4Pvmc updatecurl -i cmpe297-assiignment2-michaelyu.cloudfoundry.com[A]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ [9Pvmc update
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccur[Kvmc updatecurl -i cmpe297-assiignment2-michaelyu.cloudfoundry.com[A]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ [9Pvmc update
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccur[K[K[K[Kvmc updatecurl -i cmpe297-assiignment2-michaelyu.cloudfoundry.com[A]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ [9Pvmc update
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccurl -i cmpe297-assiignment2-michaelyu.cloudfoundry.com[A]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ [9Pvmc update
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccurl -i cmpe297-assiignment2-michaelyu.cloudfoundry.com[A]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ [9Pvmc update
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcurl[K[K[K[Kvmc updatecurl -i cmpe297-assiignment2-michaelyu.cloudfoundry.com[Cmichaelyu.cloudfoundry.com[C[C[C[C[C[C[C[C[C[Camichaelyu.cloudfoundry.com[C[C[C[C[C[C[C[C[C[C[Cpmichaelyu.cloudfoundry.com[C[C[C[C[C[C[C[C[C[C[C[Crmichaelyu.cloudfoundry.com[C[C[C[C[C[C[C[C[C[C[C[C[Cemichaelyu.cloudfoundry.com[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdmichaelyu.cloudfoundry.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cumichaelyu.cloudfoundry.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccmichaelyu.cloudfoundry.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemichaelyu.cloudfoundry.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-michaelyu.cloudfoundry.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 06 Dec 2012 01:13:18 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+12-06-12 = 10
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ curl -i cmpe297-assiignment2-mapreduce-michaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 06 Dec 2012 01:13:21 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+12-06-12 = 11
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ curl -i cmpe297-assiignment2-mapreduce-michaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 06 Dec 2012 01:13:22 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+12-06-12 = 12
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ curl -i cmpe297-assiignment2-mapreduce-michaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 06 Dec 2012 01:13:24 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+12-06-12 = 13
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ curl -i cmpe297-assiignment2-mapreduce-michaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 06 Dec 2012 01:13:26 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+12-06-12 = 14
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ curl -i cmpe297-assiignment2-mapreduce-michaelyu.cloudfoundry.com
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 06 Dec 2012 01:13:27 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+
+Hello World
+12-06-12 = 15
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ ^C
+]0;michael@michael-VirtualBox: ~/Downloads/mongo-node-mapreducemichael@michael-VirtualBox:~/Downloads/mongo-node-mapreduce$ exit
+
+Script done on Wed 05 Dec 2012 05:13:35 PM PST

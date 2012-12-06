@@ -1,0 +1,16 @@
+--- 
+applications: 
+  .: 
+    url: cmpe297-assignment2-mapreduce-michaelyu.cloudfoundry.com
+    services: 
+      mongodb-a3a65: 
+        type: mongodb
+    framework: 
+      info: 
+        exec: 
+        description: Node.js Application
+        mem: 64M
+      name: node
+    name: mongo-node-mapreduce
+    instances: 1
+    mem: 64M

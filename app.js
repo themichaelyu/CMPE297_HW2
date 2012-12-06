@@ -35,8 +35,8 @@ var record_visit = function(req, res){
   /* Connect to the DB and auth */
   require('mongodb').connect(mongourl, function(err, conn){
     //res.write("connected to mongodb\n");
-    conn.collection('ips', function(err, coll){
-      //res.write("connected to collection ips\n");
+    conn.collection('ips0', function(err, coll){
+      //res.write("connected to collection ips0\n");
       /* Simple object to insert: ip address and date */
       object_to_insert = { 'ip': req.connection.remoteAddress, 'ts': new Date() };
 
@@ -51,9 +51,14 @@ var record_visit = function(req, res){
               var map = new Object();
               for (var i = 0; i < arr.length; i++) {
                   var dateValue = arr[i]["ts"];
-                  var year = dateValue.getFullYear();
-                  var month = dateValue.getMonth();
+                  var year = dateValue.getFullYear().toString();
+                  year = year.substring(year.length-2); 
+                  var month = dateValue.getMonth()+1;
+                  if (month < 10)
+                      month = "0" + month; 
                   var date = dateValue.getDate();
+                  if (date < 10)
+                      date = "0" + date; 
                   var dateToInsert = month + "-" + date + "-" + year;
                   if (map[dateToInsert] == null) {
                       map[dateToInsert] = 1;
